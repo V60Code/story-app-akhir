@@ -1,0 +1,2 @@
+APP_URL=
+MAP_SERVICE_API_KEY=tidak menggunakan API key pribadi dalam app ini.

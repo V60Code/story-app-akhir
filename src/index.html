@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/app-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Story App</title>
+
+    <script type="module" src="/scripts/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="main-header container">
+        <a href="#" class="skip-link" id="skip-link">Lewati ke Konten</a>
+        <a href="#" class="brand-name">
+          <img src="/images/app-icon.png" alt="Logo Story App" class="logo" />
+          Story App
+        </a>
+
+        <nav id="navigation-drawer" class="navigation-drawer">
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#/">Beranda</a></li>
+            <li><a href="#/maps">Maps</a></li>
+            <li><a href="#/about">About</a></li>
+            <li><a href="#/add">Tambah Cerita</a></li>
+            <li><a href="#/saved">Cerita Tersimpan</a></li>
+            <li>
+              <button id="link-subscribe-push" class="nav-btn">
+                Aktifkan Notifikasi
+              </button>
+            </li>
+            <li>
+              <button id="link-test-push" class="nav-btn">
+                 Test Notifikasi
+              </button>
+            </li>
+            <li><a href="#/register">Daftar</a></li>
+            <li><a href="#/login">Masuk</a></li>
+          </ul>
+        </nav>
+
+        <button id="drawer-button" class="drawer-button">☰</button>
+      </div>
+    </header>
+
+    <div id="loader" class="loader" hidden></div>
+    <main id="main-content" class="main-content" tabindex="-1"></main>
+    <footer class="footer">
+      <p>&copy; 2025 Story App. Dibuat oleh Muhammad Alfarizi Habibullah.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
