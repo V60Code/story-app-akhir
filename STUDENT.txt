@@ -1,2 +1,2 @@
-APP_URL=https://github.com/V60Code/story-app-akhir
+APP_URL=
 MAP_SERVICE_API_KEY=tidak menggunakan API key pribadi dalam app ini.
